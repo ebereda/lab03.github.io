@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!-- CSE 190 M Homework 4 (NerdLuv) -->
+<!-- shared page top HTML -->
+
+<head>
+    <title>NerdLuv</title>
+
+    <meta charset="utf-8" />
+
+    <!-- instructor-provided CSS and JavaScript links; do not modify -->
+    <link href="images/heart.gif" type="image/gif" rel="shortcut icon" />
+    <link href="nerdluv.css" type="text/css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="provided.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+    <img src="nerdluv.png" alt="banner logo" /> <br />
+    where meek geeks meet
+</header>
+<form action="submit.php" method="Post">
+    <fieldset>
+        <legend>New User Sign Up</legend>
+        <label>Name:</label><input type="text" name="fName" size="16"><br/>
+        <br/>
+        <label>Gender:<input type="radio" name="gender" value="f"checked/>Female</label>
+        <label><input type="radio" name="gender" value="m"/>Male</label><br/>
+        <br/>
+        <label>Age:</label><input type="text" name="age" size="3"><br/>
+        <br/>
+        <label>Personality Type:</label><input type="text" name="personality" size="5"><a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp" >(Don't you know your personality?)</a><br/>
+        <br/>
+        <label>Favorite OS:</label><select>
+        <option>Windows</option>
+        <option>Mac Os X</option>
+        <option>Linux</option>
+    </select>
+        <br/>
+        <br/>
+        <label>Seeking Age:</label><input type="text" name="age" size="3" placeholder="min">to<input type="text" name="age" size="3" placeholder="max"><br/>
+        <br/>
+        <input type="submit" value="SignUp"/>
+    </fieldset>
+
+</form>
+<!-- shared page bottom HTML -->
+<p>
+    This page is for single nerds to meet and date each other! Type in your personal information and wait for the
+    nerdly luv to begin! Thank you for using our site.
+</p>
+<footer>
+    <hr />
+    <p>
+        Results and page (C) Copyright NerdLuv Inc.
+    </p>
+
+    <ul>
+        <li>
+            <a href="index.php">
+                <img src="back.gif" alt="icon" />
+                Back to front page
+            </a>
+        </li>
+    </ul>
+
+    <div>
+        <a href="https://validator.w3.org/check/referer">
+            <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png alt="Validate" >
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src=http://jigsaw.w3.org/css-validator/images/vcss alt="Valid CSS!" >
+        </a>
+    </div>
+</footer>
+</body>
+
+</html>

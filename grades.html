@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<h1>Retrieve Your Grade</h1>
+<form action="http://mumstudents.org/params.php" method="Post">
+
+        <label>Name:</label><input type="text" name="fName" size="16"><br/>
+        <br/>
+
+        <label>Id:</label><input type="text" name="age" size="3"><br/>
+        <br/>
+        <label>Entry:<input type="radio" name="year" value="f"checked/>February</label>
+        <label><input type="radio" name="year" value="m"/>May</label>
+        <label><input type="radio" name="year" value="a"/>August</label><br/>
+        <br/>
+        <br/>
+        <label><input type="Checkbox" name="answer" value="yes"/>Yes I am Student.</label>
+        <br/>
+
+        <label>Assignments:</label><select>
+        <option>Assignment01</option>
+        <option>Assignment02</option>
+        <option>Assignment03</option>
+    </select>
+        <br/>
+    <br/>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
